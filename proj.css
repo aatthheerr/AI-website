@@ -1,11 +1,7 @@
 body{
   background-image: url("backkpic.jpeg");
- 
-    
-  }
+}
   
- 
-
 img{
     width:400px; height:250px; 
 }
@@ -38,7 +34,6 @@ hr{block-size: 2px; background-color: rgb(80, 77, 77);}
 font-size: large;
         width: 100%;
         height: 50px;
-  
 }
 
   li a {
@@ -60,13 +55,7 @@ font-size: large;
     .w{
         background-color:rgb(161, 170, 189) ;
     }
-  
 
-.hh3{ /*member*/
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 2px 2px 2px white;
-}
 h1{
     text-align: center;
     text-transform: capitalize;
@@ -78,15 +67,6 @@ h4{
     text-shadow: 2px 2px 2px white;
 }
 
-input[type=submit], input[type=reset]{
-    background-color: #5631dd;
-    border: none;
-    color: aliceblue;
-    padding:16px 32px ;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
     input[type=submit] {
         background-color: #32369b;
         border: none;
@@ -96,13 +76,5 @@ input[type=submit], input[type=reset]{
         margin: 4px 2px;
         cursor: pointer;
       }    
-      input[type=reset] {
-        background-color: #595a6b;
-        border: none;
-        color: rgb(250, 250, 250);
-        padding: 16px 32px;
-        text-decoration: none;
-        margin: 4px 2px;
-        cursor: pointer;
-      }    
+        
    
