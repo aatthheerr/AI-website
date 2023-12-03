@@ -24,27 +24,28 @@
 
 <h1>Sign in </h1></center>
 
+
 <fieldset>
     <legend><b>personal information</b></legend>
-    <form>
+    <form action="/action_page.php">
         <label><b>first name:</b></label><br>
-        <input type="text" placeholder="write your first name" pattern="[A-Za-z]"  title="only letters" style="width: 250px; background-color: rgb(153, 173, 201);color: rgb(0, 0, 0);"
-    </form><br>
-    <form>
+        <input type="text" id="fname" placeholder="write your first name" pattern="[A-Za-z]"  title="only letters" style="width: 250px; background-color: rgb(153, 173, 201);color: rgb(0, 0, 0);">
+<br>
+  
         <label><b>second name:</b></label><br>
-        <input type="text" placeholder="write your second name" pattern="[A-Za-z]" title="only letters" style="width: 250px; background-color:rgb(153, 173, 201);color: rgb(0, 0, 0);"
-    </form><br>
-     <form>
+        <input type="text" id="sname" placeholder="write your second name" pattern="[A-Za-z]" title="only letters" style="width: 250px; background-color:rgb(153, 173, 201);color: rgb(0, 0, 0);">
+ <br>
+    
         <label><b>last name:</b></label><br>
-        <input type="text" placeholder="write your last name" pattern="[A-Za-z]" title="only letters" style="width: 250px; background-color:rgb(153, 173, 201);color: rgb(0, 0, 0);"
-    </form><br>
-    <form>
+        <input type="text" id="lname" placeholder="write your last name" pattern="[A-Za-z]" title="only letters" style="width: 250px; background-color:rgb(153, 173, 201);color: rgb(0, 0, 0)">
+<br>
+
         <label><b>email:</b></label><br>
-        <input type="email" placeholder="email@any.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" style="width: 250px; background-color: rgb(153, 173, 201);color: rgb(0, 0, 0);"   
-    </form><br>
-    <from>
+        <input type="email" id="email" placeholder="email@any.com" pattern="[a-z0-9._%+\\-]+@[a-z0-9.\\-]+\\.[a-z]{2,}$" style="width: 250px; background-color: rgb(153, 173, 201);color: rgb(0, 0, 0);"  > 
+  <br>
+
         <label><b>phone:</b></label><br>
-        <input type="tel" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" title="ten numbers phone" style="width: 250px; background-color: rgb(153, 173, 201);color:rgb(0, 0, 0);"
+        <input type="tel" id="phone"  placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" title="ten numbers phone" style="width: 250px; background-color: rgb(153, 173, 201);color: rgb(0, 0, 0)">
     </form><br>
     <from><br>
     <label><b>best way to contact you:</b></label><br>
@@ -53,14 +54,14 @@
     </from><br>
     <from><br>
         <label><b>write your notes:</b></label><br>
-        <textarea placeholder="please write your notes" rows="10" cols="50"></textarea>
+        <textarea id="message" placeholder="please write your notes" rows="10" cols="50"></textarea>
     </from>
 
 </fieldset>
-<center>
-<input type="submit" value="Send">
-</center>
 
+<center>
+<input  type="submit" value="Send">
+</center>
 
 
 
