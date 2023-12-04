@@ -50,7 +50,7 @@ font-size: large;
   
   .active {
     background-color: #4e5070;
-      margin-left:300px;
+      float: right;
   }
     .w{
         background-color:rgb(161, 170, 189) ;
